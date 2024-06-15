@@ -3,7 +3,7 @@ const glados = async () => {
   if (!cookie) return
   try {
     const headers = {
-      'cookie': _ga_CZFVKMNT9J=GS1.1.1718466582.1.1.1718466675.0.0.0; _ga=GA1.2.1256492265.1718466582; _gid=GA1.2.680258803.1718466582; koa:sess=eyJ1c2VySWQiOjI1MDA2LCJfZXhwaXJlIjoxNzQ0Mzg2Njc1NDE1LCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=6aRBSM6amYLrmEB3XjntqdU-bXM,
+      'cookie': cookie,
       'referer': 'https://glados.rocks/console/checkin',
       'user-agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)',
     }
